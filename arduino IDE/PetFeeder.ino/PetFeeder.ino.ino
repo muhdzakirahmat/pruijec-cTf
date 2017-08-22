@@ -11,6 +11,8 @@ ESP8266Client server;
 SoftwareSerial ESP8266(2, 3); //set ESP8266 RX pin = 5, and TX pin = 4
 HX711 scale(A0, A1);    // parameter "gain" is ommited; the default value 128 is used by the library
 
+
+//hai pungkok
 String data;
 String servera = "192.168.1.100"; 
 String uri = "/arduino/add.php?"; 
